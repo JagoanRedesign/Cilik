@@ -57,17 +57,17 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Cilik AI Already Activated In This Chat")
+            await lel.edit("Xrynze AI Already Activated In This Chat")
             return
-        await lel.edit(f"Cilik AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Xrynze AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Cilik AI Was Not Activated In This Chat")
+            await lel.edit("Xrynze AI Was Not Activated In This Chat")
             return
-        await lel.edit(f"Cilik AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Xrynze AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
@@ -434,9 +434,12 @@ async def inuka(client, message):
 
 
 __help__ = """
-✪ Cilik AI is the only ai system which can detect & reply upto 200 language's
-✪ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
-✪ /chatbot EN : Enables English only chatbot.
+──「 Bot Obrolan AI 」──
+
+Xrynze AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
+
+❖ /chatbot ON/OFF: Mengaktifkan dan menonaktifkan mode AI Chat.
+❖ /chatbot EN : Mengaktifkan chatbot berbahasa Inggris saja.
 """
 
 __mod_name__ = "Chatbot"
