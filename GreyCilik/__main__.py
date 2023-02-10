@@ -306,7 +306,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Here is the help for the *{}* module:\n".format(
+                "Berikut adalah bantuan untuk modul *{}*:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -316,7 +316,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Kembali", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🔙Kembali", callback_data="help_back")]]
                 ),
             )
 
