@@ -108,7 +108,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://telegra.ph/file/71988eea4f74722f38217.jpg",
+            thumb_url="https://telegra.ph/file/2a8514b5527d544e97545.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -121,25 +121,25 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/GreyCilik_bot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/xrynze4bot"),
         InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[Grey Cilik ❤️](https://t.me/GreyCilik_bot):**
+**[Xrynze bot ❤️](https://t.me/xrynze4bot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/greyyvbss)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/mazekubot)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/71988eea4f74722f38217.jpg",
+            thumb_url="https://telegra.ph/file/2a8514b5527d544e97545.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
@@ -431,8 +431,8 @@ async def tg_search_func(answers, text, user_id):
 
 
 async def music_inline_func(answers, query):
-    chat_id = -1001445180719
-    group_invite = "https://t.me/joinchat/vSDE2DuGK4Y4Nzll"
+    chat_id = -1001502192084
+    group_invite = "https://t.me/+MHy1b4cgDWNlOTk1"
     try:
         messages = [
             m
