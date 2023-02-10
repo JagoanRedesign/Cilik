@@ -548,28 +548,33 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-✪ /get <notename>*:* get the note with this notename
-✪ #<notename>*:* same as /get
-✪ /notes or /saved*:* list all saved notes in this chat
-✪ /number *:* Will pull the note of that number in the list
-If you would like to retrieve the contents of a note without any formatting, use `/get <notename> noformat`. This can \
-be useful when updating a current note
-*Admins only:*
-✪ •/save <notename> <notedata>*:* saves notedata as a note with name notename
-A button can be added to a note by using standard markdown link syntax - the link should just be prepended with a \
-`buttonurl:` section, as such: `[somelink](buttonurl:example.com)`. Check `/markdownhelp` for more info
-✪ /save <notename>*:* save the replied message as a note with name notename
- Separate diff replies by `%%%` to get random notes
- *Example:*
- `/save notename
- Reply 1
- %%%
- Reply 2
- %%%
- Reply 3`
-✪ /clear <notename>*:* clear note with this name
-✪ /removeallnotes*:* removes all notes from the group
- *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
+──「 Catatan 」──
+
+❖ /get <notename>: dapatkan catatan dengan nama catatan ini
+❖ #<namacatatan>: sama dengan /get
+❖ /notes atau /saved: daftarkan semua catatan yang disimpan dalam obrolan ini
+❖ /number  : Akan menarik catatan nomor itu dalam daftar
+Jika Anda ingin mengambil isi catatan tanpa format apapun, gunakan /get <notename> noformat. Ini bisa \
+berguna saat memperbarui catatan saat ini
+
+*Hanya Admin :*
+❖ /save <notename> <notedata>: menyimpan notedata sebagai catatan dengan nama notename
+Tombol dapat ditambahkan ke catatan dengan menggunakan sintaks tautan penurunan harga standar - tautan harus diawali dengan \
+bagian `buttonurl:`, seperti: `[somelink](buttonurl:example.com)`. Periksa /markdownhelp untuk info lebih lanjut
+❖ /save <notename>: simpan pesan balasan sebagai catatan dengan nama notename
+Pisahkan balasan yang berbeda dengan %%% untuk mendapatkan catatan acak
+Contoh:
+  ➩ `/simpan nama catatan
+     Balas 1
+     %%%
+     Balas 2
+     %%%
+     Balas 3`
+
+❖ /clear <notename>: hapus note dengan nama ini
+❖ /removeallnotes: menghapus semua catatan dari grup
+
+*Catatan:* Nama catatan tidak peka huruf besar/kecil, dan secara otomatis diubah menjadi huruf kecil sebelum disimpan.
 """
 
 __mod_name__ = "Notes"
