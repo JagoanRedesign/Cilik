@@ -552,21 +552,23 @@ def kayo(update: Update, context: CallbackContext):
 
 
 __help__ = """
- ──「 Anime search 」──                           
-✪ /anime <anime>: returns information about the anime.
-✪ /whatanime: returns source of anime when replied to photo or gif.                                                          
-✪ /character <character>: returns information about the character.
-✪ /manga <manga>: returns information about the manga.
-✪ /user <user>: returns information about a MyAnimeList user.
-✪ /upcoming: returns a list of new anime in the upcoming seasons.
-✪ /airing <anime>: returns anime airing info.
-✪ /whatanime <anime>: reply to gif or photo.
-✪ /kaizoku <anime>: search an anime on animekaizoku.com
-✪ /kayo <anime>: search an anime on animekayo.com
+ ──「 Pencarian Anime 」──
 
- 「 Anime Quotes 」
-✪ /animequotes: for anime quotes randomly as photos.
-✪ /quote: send quotes randomly as text
+❖ /anime <anime>: mengembalikan informasi tentang anime.
+❖ /whatanime: mengembalikan sumber anime saat membalas foto atau gif.
+❖ /character <character>: mengembalikan informasi tentang karakter.
+❖ /manga <manga>: mengembalikan informasi tentang manga.
+❖ /user <user>: mengembalikan informasi tentang pengguna MyAnimeList.
+❖ /upcoming: mengembalikan daftar anime baru di musim mendatang.
+❖ /airing <anime>: mengembalikan info penayangan anime.
+❖ /whatanime <anime>: membalas gif atau foto.
+❖ /kaizoku <anime>: cari anime di animekaizoku.com
+❖ /kayo <anime>: cari anime di animekayo.com
+
+──「 Kutipan Anime 」──
+
+❖ /animequotes: untuk kutipan anime secara acak sebagai foto.
+❖ /quote: kirim kutipan secara acak sebagai teks
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime, run_async=True)
