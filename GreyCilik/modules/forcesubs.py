@@ -178,30 +178,37 @@ def config(client, message):
 
 
 __help__ = """
-*Force Subscribe:*
-✪ Grey can mute members who are not subscribed your channel until they subscribe
-✪ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
-✪*Setup*
-*Only creator*
-✪ Add me in your group as admin
-✪ Add me in your channel as admin 
- 
-*Commmands*
-✪ /fsub {channel username} - To turn on and setup the channel.
-  💡Do this first...
-✪ /fsub - To get the current settings.
-✪ /fsub disable - To turn of ForceSubscribe..
-  💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
-✪ /fsub clear - To unmute all members who muted by me.
-*Federation*
-Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
-But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?\n
-*No longer!* With Federation, you can make a ban in one chat overlap with all other chats.\n
-You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.\n
-*Commands:*\n
-Feds are now divided into 3 sections for your ease.
-• `/fedownerhelp`*:* Provides help for fed creation and owner only commands
-• `/fedadminhelp`*:* Provides help for fed administration commands
-• `/feduserhelp`*:* Provides help for commands anyone can use
+──「 F-Subs / Feds 」──
+
+*Paksa Berlangganan:*
+
+Xrynze dapat membisukan anggota yang tidak berlangganan saluran Anda sampai mereka berlangganan saat diaktifkan, saya akan membisukan anggota yang tidak berlangganan dan menunjukkan kepada mereka tombol suarakan. Ketika mereka menekan tombol, saya akan membunyikan mereka
+
+*Pengaturan : Hanya pencipta*
+❖ Tambahkan saya di grup Anda sebagai admin
+❖ Tambahkan saya di saluran Anda sebagai admin
+
+*Perintah*
+❖ /fsub {channel username} - Untuk mengaktifkan dan mengatur saluran.
+
+  💡 Lakukan ini dulu...
+
+❖ /fsub - Untuk mendapatkan pengaturan saat ini.
+❖ /fsub disable - Untuk mematikan ForceSubscribe..
+
+  💡 Jika Anda menonaktifkan fsub, Anda perlu menyetel lagi agar berfungsi.. /fsub {channel username}
+
+❖ /fsub clear - Untuk mengaktifkan suara semua anggota yang dibisukan oleh saya.
+
+*Federasi*
+Semuanya menyenangkan, sampai spammer mulai memasuki grup Anda, dan Anda harus memblokirnya. Maka Anda harus mulai melarang lebih banyak, dan lebih banyak lagi, dan itu menyakitkan.
+Tapi kemudian Anda memiliki banyak grup, dan Anda tidak ingin spammer ini berada di salah satu grup Anda - bagaimana Anda bisa menanganinya? Apakah Anda harus memblokirnya secara manual, di semua grup Anda?
+*Tidak lagi!* Dengan Federasi, Anda dapat membuat larangan dalam satu obrolan tumpang tindih dengan semua obrolan lainnya.
+Anda bahkan dapat menunjuk admin federasi, sehingga admin tepercaya Anda dapat mencekal semua spammer dari chat yang ingin Anda lindungi.
+*Perintah:*
+Feds sekarang dibagi menjadi 3 bagian untuk kemudahan Anda.
+❖ `¶/fedownerhelp`: Menyediakan bantuan untuk pembuatan feed dan perintah pemilik saja
+❖ `/fedadminhelp`: Menyediakan bantuan untuk perintah administrasi makan
+❖ `/feduserhelp`: Memberikan bantuan untuk perintah yang dapat digunakan siapa saja
 """
 __mod_name__ = "F-Sub/Feds"
