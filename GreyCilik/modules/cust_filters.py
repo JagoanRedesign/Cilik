@@ -607,28 +607,29 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-❂ /filters*:* List all active filters saved in the chat.
-*Admin only:*
-❂ /filter <keyword> <reply message>*:* Add a filter to this chat. The bot will now reply that message whenever 'keyword'\
-is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
-keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
-doin?
- Separate diff replies by `%%%` to get random replies
- *Example:* 
- `/filter "filtername"
- Reply 1
- %%%
- Reply 2
- %%%
- Reply 3`
+──「 Filters 」──
 
-❂ /stop <filter keyword>*:* Stop that filter.
+❖ /filters: Daftar semua filter aktif yang disimpan dalam obrolan.
+*Hanya Admin:*
+❖ /filter <kata kunci> <balas pesan>: Tambahkan filter ke obrolan ini. Bot sekarang akan membalas pesan itu setiap kali 'kata kunci'disebutkan.
+ Jika Anda membalas stiker dengan kata kunci, bot akan membalas dengan stiker itu. CATATAN: semua filter 
+kata kunci dalam huruf kecil. Jika Anda ingin kata kunci Anda menjadi kalimat, gunakan tanda kutip. misalnya: /filter "hey there" Bagaimana Anda lakukan?
+  Pisahkan balasan yang berbeda dengan `%%%` untuk mendapatkan balasan acak
+  *Contoh:*
+  ➩ `/filter "nama filter"
+     Balas 1
+     %%%
+     Balas 2
+     %%%
+     Balas 3`
 
-*Chat creator only:*
+❖ /stop <filter kata kunci>: Hentikan filter itu.
 
-❂ /removeallfilters*:* Remove all chat filters at once.
-*Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
-Check /markdownhelp to know more!
+*Khusus pembuat obrolan:*
+
+❖ /removeallfilters: Hapus semua filter obrolan sekaligus.
+*Catatan:* Filter juga mendukung pemformat penurunan harga seperti: `{first}`, `{last}` dll. dan tombol.
+Periksa /markdownhelp untuk tahu lebih banyak!
 """
 
 __mod_name__ = "Filters"
