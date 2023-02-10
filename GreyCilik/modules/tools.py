@@ -1,35 +1,37 @@
 __mod_name__ = "Tools"
 
 __help__ = """
-*Sangmata Info bot*
-❂ /sg <reply>*:* To check history name
-*Mention All*
-❂ /all or @all <text>*:* Mention All Members
-*Date-time-Weather*
-❂ /time <country code>*:* Gives information about a timezone.
-❂ /weather <city>*:* Get weather info in a particular place.
-❂ /wttr <city>*:* Advanced weather module, usage same as /weather
-❂ /wttr moon*:* Get the current status of moon
-*Converts*
-❂ /encrypt*:* Encrypts The Given Text
-❂ /decrypt*:* Decrypts Previously Ecrypted Text
-❂ /zip*:* reply to a telegram file to compress it in .zip format
-❂ /unzip*:* reply to a telegram file to decompress it from the .zip format
-*Random API*
-❂ /ptl or /asupan: get random video from Instagram timeline
-❂ /chika: get random video from chikakiku
-❂ /wibu:get random short anime video or photos
-❂ /truth: challenge 
-❂ /dare: challenge
-Link To File:
-❂ /up: reply to a direct download link to upload it to telegram as files
+──「 Alat 」──
+
+*Bot Info Sangmata*
+❂ /sg <reply>: Untuk memeriksa nama riwayat
+
+*Tanggal-waktu-Cuaca*
+❂ /time <kode negara>: Memberikan informasi tentang zona waktu.
+❂ /weather <city>: Dapatkan info cuaca di tempat tertentu.
+❂ /wttr <city>: Modul cuaca lanjutan, penggunaannya sama dengan /weather
+❂ /wttr moon: Dapatkan status bulan saat ini
+
+*Mengkonversi*
+❂ /encrypt: Mengenkripsi Teks yang Diberikan
+❂ /decrypt: Mendekripsi Teks Terenkripsi Sebelumnya
+❂ /zip: membalas file telegram untuk mengompresnya dalam format .zip
+❂ /unzip: membalas file telegram untuk mendekompresnya dari format .zip
+
+*Hiburan*
+❂ /truth: pertanyaan
+❂ /dare: tantangan
+
+Tautan Ke Berkas:
+❂ /up: balas tautan unduhan langsung untuk mengunggahnya ke telegram sebagai file
  
- File To Link:
-❂ /transfersh: reply to a telegram file to upload it on transfersh and get direct download link
-❂ /tmpninja: reply to a telegram file to upload it on tmpninja and get direct download link
- File Or Text To Telegraph:
-❂ /tgm : Get Telegraph Link Of Replied Media
-❂ /tgt: Get Telegraph Link of Replied Text
- Tagger
-❂ /tagall : for tag everyone at least 100 member first.
+ File Ke Tautan:
+❂ /transfersh: balas file telegram untuk mengunggahnya di transfersh dan dapatkan tautan unduhan langsung
+❂ /tmpninja: balas file telegram untuk diunggah ke tmpninja dan dapatkan tautan unduhan langsung
+ File Atau Teks Ke Telegraf:
+❂ /tgm : Dapatkan Tautan Telegraf Media Balasan
+❂ /tgt: Dapatkan Tautan Telegraf dari Teks Balasan
+
+ penanda
+❂ /tagall : untuk tag semua orang minimal 100 member dulu.
 """
