@@ -328,8 +328,8 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
-    elif user.id == 1784606556:
-         text += "\n\nOwner Of A Bot. Queen Of @reyyvbss. Bot Name Inspired From 'JoJo'."
+    elif user.id == 5166575484:
+         text += "\n\nOwner Of A Bot. Queen Of @Mazekubot. Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
@@ -384,9 +384,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/CilikProject"),
+                                "Health", url="https://t.me/DutabotID/25"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/CilikProject")
+                                "Disaster", url="https://t.me/DutabotID")
                         ],
                     ]
                 ),
@@ -428,21 +428,21 @@ def about_me(update: Update, context: CallbackContext):
 def set_about_me(update: Update, context: CallbackContext):
     message = update.effective_message
     user_id = message.from_user.id
-    if user_id in [5094084246, 1784606556]:
+    if user_id in [5094084246, 5166575484]:
         message.reply_text("Error! Unauthorized")
         return
     bot = context.bot
     if message.reply_to_message:
         repl_message = message.reply_to_message
         repl_user_id = repl_message.from_user.id
-        if repl_user_id in [bot.id, 5094084246, 1784606556] and (user_id in DEV_USERS):
+        if repl_user_id in [bot.id, 5094084246, 5166575484] and (user_id in DEV_USERS):
             user_id = repl_user_id
     text = message.text
     info = text.split(None, 1)
     if len(info) == 2:
         if len(info[1]) < MAX_MESSAGE_LENGTH // 4:
             sql.set_user_me_info(user_id, info[1])
-            if user_id in [c, 1784606556]:
+            if user_id in [c, 5166575484]:
                 message.reply_text("Authorized...Information updated!")
             elif user_id == bot.id:
                 message.reply_text("I have updated my info with the one you provided!")
@@ -458,7 +458,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/GreyCilik_bot'>Grey Cilik</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❖ <b>Stats For Xrynze:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
@@ -507,7 +507,7 @@ def set_about_bio(update: Update, context: CallbackContext):
             )
             return
 
-        if user_id in [1784606556, 1784606556] and sender_id not in DEV_USERS:
+        if user_id in [5166575484, 5166575484] and sender_id not in DEV_USERS:
             message.reply_text("You are not authorised")
             return
 
@@ -551,37 +551,39 @@ def __user_info__(user_id):
 
 
 __help__ = """
-*ID:*
-❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
-❂ /gifid*:* reply to a gif to me to tell you its file ID.
+──「 Info and AFK 」──
+
+*PENGENAL:*
+❖ /id: dapatkan id grup saat ini. Jika digunakan dengan membalas pesan, dapatkan id pengguna itu.
+❖ /gifid: balas gif ke saya untuk memberi tahu Anda ID filenya.
  
-*Self addded information:* 
-❂ /setme <text>*:* will set your info
-❂ /me*:* will get your or another user's info.
-Examples:
-❂ /setme I am a wolf.
-❂ /me @username(defaults to yours if no user specified)
+*Informasi tambahan diri:*
+❖ /setme <text>: akan mengatur info Anda
+❖ /me: akan mendapatkan info Anda atau pengguna lain.
+Contoh:
+❖ /setme Saya serigala.
+❖ /me @namapengguna(default ke milik Anda jika tidak ada pengguna yang ditentukan)
  
-*Information others add on you:* 
-❂ /bio*:* will get your or another user's bio. This cannot be set by yourself.
-❂ /setbio <text>*:* while replying, will save another user's bio 
-Examples:
-❂ /bio @username(defaults to yours if not specified).
-❂ /setbio This user is a wolf (reply to the user)
+*Informasi yang ditambahkan orang lain pada Anda:*
+❖ /bio: akan mendapatkan bio Anda atau pengguna lain. Ini tidak dapat diatur sendiri.
+❖ /setbio <text>: saat membalas, akan menyimpan bio pengguna lain
+Contoh:
+❖ /bio @namapengguna(default milik Anda jika tidak ditentukan).
+❖ /setbio Pengguna ini adalah serigala (balas ke pengguna)
  
-*Overall Information about you:*
-❂ /info*:* get information about a user. 
+*Informasi Keseluruhan tentang Anda:*
+❖ /info: mendapatkan informasi tentang pengguna.
  
-*json Detailed info:*
-❂ /json*:* Get Detailed info about any message.
+*json Info lengkap:*
+❖ /json: Dapatkan info detail tentang pesan apa pun.
  
 *AFk:*
-When marked as AFK, any mentions will be replied to with a message stating that you're not available!
-❂ /afk <reason>*:* Mark yourself as AFK.
-  - brb <reason>: Same as the afk command, but not a command. 
+Ketika ditandai sebagai AFK, penyebutan apa pun akan dibalas dengan pesan yang menyatakan bahwa Anda tidak tersedia!
+❖ /afk <reason>: Tandai diri Anda sebagai AFK.
+  - brb <reason>: Sama seperti perintah afk, tapi bukan perintah.
   
-*What is that health thingy?*
- Come and see [HP System explained](https://t.me/KennedyProject/44)
+*Apa itu kesehatan?*
+Datang dan lihat [Penjelasan Sistem HP](https://t.me/DutabotID/25)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)
