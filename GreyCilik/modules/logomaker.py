@@ -63,7 +63,7 @@ async def logo_gen(event):
     else:
         pics = []
         async for i in ubot2.iter_messages(
-            "@PrimeLogoPack", filter=InputMessagesFilterPhotos
+            "@Xenlogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -73,7 +73,7 @@ async def logo_gen(event):
     if not bg_:
         pics = []
         async for i in ubot2.iter_messages(
-            "@PrimeLogopack", filter=InputMessagesFilterPhotos
+            "@Xenlogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cililk](https://t.me/GreyCilik_bot)",
+            caption="Logo by [Xrynze Robot](https://t.me/xrynze4bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -146,7 +146,7 @@ async def logo_(event):
     else:
         pics = []
         async for i in ubot2.iter_messages(
-            "@Primelogopack", filter=InputMessagesFilterPhotos
+            "@Xenlogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -156,7 +156,7 @@ async def logo_(event):
     if not bg_:
         pics = []
         async for i in ubot2.iter_messages(
-            "@Primelogopack", filter=InputMessagesFilterPhotos
+            "@Xenlogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cilik](https://t.me/GreyCilik_bot)",
+            caption="Logo by [Grey Cilik](https://t.me/xrynze4bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -279,7 +279,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cililk](https://t.me/GreyCilik_bot)",
+            caption="Logo by [Xrynze Robot](https://t.me/xrynze4bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -293,10 +293,14 @@ async def logo_gen(event):
             
 __mod_name__ = "Logomaker"
 
-__help__ = """ This is help menu for logomaker
-✪ /logo <text/name> - Create a logo with random view.
-✪ /wlogo <text/name> - Create a logo with wide view only.
- Image Editor :
-✪ /slogo <text/name> - Buat logo pake foto cewek
-✪ /edit <reply photo> - to edit image.
+__help__ = """
+──「 Pembuat Logo 」──
+
+Ini adalah menu bantuan untuk pembuat logo
+❖ /logo <text/name> - Membuat logo dengan tampilan acak.
+❖ /wlogo <text/name> - Buat logo dengan tampilan lebar saja.
+❖ /slogo <text/name> - Buat logo dengan foto cewek.
+
+*Editor Gambar :*
+❖ /edit <balas foto> - untuk mengedit gambar.
 """
