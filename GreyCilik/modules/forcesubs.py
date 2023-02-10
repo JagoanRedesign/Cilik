@@ -207,7 +207,7 @@ Tapi kemudian Anda memiliki banyak grup, dan Anda tidak ingin spammer ini berada
 Anda bahkan dapat menunjuk admin federasi, sehingga admin tepercaya Anda dapat mencekal semua spammer dari chat yang ingin Anda lindungi.
 *Perintah:*
 Feds sekarang dibagi menjadi 3 bagian untuk kemudahan Anda.
-❖ `¶/fedownerhelp`: Menyediakan bantuan untuk pembuatan feed dan perintah pemilik saja
+❖ `/fedownerhelp`: Menyediakan bantuan untuk pembuatan feed dan perintah pemilik saja
 ❖ `/fedadminhelp`: Menyediakan bantuan untuk perintah administrasi makan
 ❖ `/feduserhelp`: Memberikan bantuan untuk perintah yang dapat digunakan siapa saja
 """
