@@ -318,13 +318,17 @@ if is_module_loaded(FILENAME):
 
 
     __help__ = """
-❂ /cmds*:* check the current status of disabled commands
-*Admins only:*
-❂ /enable <cmd name>*:* enable that command
-❂ /disable <cmd name>*:* disable that command
-❂ /enablemodule <module name>*:* enable all commands in that module
-❂ /disablemodule <module name>*:* disable all commands in that module
-❂ /listcmds*:* list all possible toggleable commands
+──「 Menonaktifkan 」──
+
+❖ /cmds: periksa status perintah yang dinonaktifkan saat ini
+
+*Hanya Admin :*
+
+❖ /enable <cmd name>: aktifkan perintah itu
+❖ /disable <cmd name>: nonaktifkan perintah itu
+❖ /enablemodule <nama modul>: aktifkan semua perintah dalam modul itu
+❖ /disablemodule <nama modul>: nonaktifkan semua perintah dalam modul itu
+❖ /listcmds: daftarkan semua kemungkinan perintah yang dapat dialihkan
 """
 
     DISABLE_HANDLER = CommandHandler("disable", disable, run_async=True)
