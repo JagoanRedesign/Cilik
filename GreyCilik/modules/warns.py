@@ -490,16 +490,17 @@ def __chat_settings__(chat_id, user_id):
     )
 
 __help__ = """
+──「 Peringatan 」──
 
-❂ /warns <userhandle>: get a user's number, and reason, of warns.
-❂ /warnlist: list of all current warning filters
-❂ /warn <userhandle>: warn a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
-❂ /dwarn <userhandle>: warn a user and delete the message. After 3 warns, the user will be banned from the group. Can also be used as a reply.
-❂ /resetwarn <userhandle>: reset the warns for a user. Can also be used as a reply.
-❂ /addwarn <keyword> <reply message>: set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.
-❂ /nowarn <keyword>: stop a warning filter
-❂ /warnlimit <num>: set the warning limit
-❂ /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
+❖ /warns <userhandle>: mendapatkan nomor pengguna, dan alasan, dari peringatan.
+❖ /warnlist: daftar semua filter peringatan saat ini
+❖ /warn <userhandle>: memperingatkan pengguna. Setelah 3 kali peringatan, pengguna akan diblokir dari grup. Bisa juga digunakan sebagai balasan.
+❖ /dwarn <userhandle>: memperingatkan pengguna dan menghapus pesan. Setelah 3 kali peringatan, pengguna akan diblokir dari grup. Bisa juga digunakan sebagai balasan.
+❖ /resetwarn <userhandle>: mengatur ulang peringatan untuk pengguna. Bisa juga digunakan sebagai balasan.
+❖ /addwarn <keyword> <reply message>: mengatur filter peringatan pada kata kunci tertentu. Jika Anda ingin kata kunci Anda menjadi kalimat, lampirkan dengan tanda kutip, seperti: /addwarn "sangat marah" Ini adalah pengguna yang marah.
+❖ /nowwarn <keyword>: hentikan filter peringatan
+❖ /warnlimit <num>: mengatur batas peringatan
+❖ /strongwarn <on/yes/off/no>: Jika disetel ke aktif, melebihi batas peringatan akan mengakibatkan larangan. Lain, hanya akan pukulan.
 """
 
 __mod_name__ = "Warning"
