@@ -193,15 +193,19 @@ def unapproveall_btn(update: Update, context: CallbackContext):
 
 
 __help__ = """
-Sometimes, you might trust a user not to send unwanted content.
-Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-That's what approvals are for - approve of trustworthy users to allow them to send
-*Admin commands:*
-✪ /approval*:* Check a user's approval status in this chat.
-✪ /approve*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-✪ /unapprove*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
-✪ /approved*:* List all approved users.
-✪ /unapproveall*:* Unapprove *ALL* users in a chat. This cannot be undone.
+──「 Disetujui 」──
+
+Terkadang, Anda mungkin memercayai pengguna untuk tidak mengirim konten yang tidak diinginkan.
+Mungkin tidak cukup untuk menjadikannya admin, tetapi Anda mungkin baik-baik saja dengan kunci, daftar hitam, dan antibanjir yang tidak berlaku untuk mereka.
+
+Untuk itulah persetujuan - setujui pengguna yang dapat dipercaya untuk mengizinkan mereka mengirim
+
+*Perintah Admin:*
+❖ /approval: Periksa status persetujuan pengguna dalam obrolan ini.
+❖ /approve: Menyetujui pengguna. Kunci, daftar hitam, dan antibanjir tidak akan berlaku lagi.
+❖ /unapprove: Tidak menyetujui pengguna. Mereka sekarang akan dikenakan kunci, daftar hitam, dan antibanjir lagi.
+❖ /approved: Daftar semua pengguna yang disetujui.
+❖ /unapproveall: Batalkan persetujuan *SEMUA* pengguna dalam obrolan. Ini tidak dapat dibatalkan.
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve, run_async=True)
