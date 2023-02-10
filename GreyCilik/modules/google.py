@@ -268,7 +268,7 @@ async def apk(e):
             + app_link
             + "'>View in Play Store</a>"
         )
-        app_details += "\n\n===> Grey <==="
+        app_details += "\n\n===> Xrynze <==="
         await e.reply(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await e.reply("No result found in search. Please enter **Valid app name**")
@@ -279,14 +279,17 @@ async def apk(e):
 __mod_name__ = "Search"
 
 __help__ = """
-✪ /google <query>*:* Perform a google search
-✪ /image <query>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
-✪ /app <appname>*:* Searches for an app in Play Store and returns its details.
-✪ /reverse: Does a reverse image search of the media which it was replied to.
-✪ /gps <location>*:* Get gps location.
-✪ /github <username>*:* Get information about a GitHub user.
-✪ /country <country name>*:* Gathering info about given country
-✪ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-✪ Cilik <query>*:* Cilik answers the query
-  💡Ex: `Cilik where is Japan?`
+──「 Pencarian 」──
+
+❖ /google <query>: Lakukan pencarian google
+❖ /image <query>: Cari gambar di Google dan kembalikan Untuk no yang lebih besar. dari hasil tentukan lim, Misalnya: `/img hello lim=10`
+❖ /app <appname>: Mencari aplikasi di Play Store dan mengembalikan detailnya.
+❖ /reverse: Melakukan pencarian gambar terbalik dari media yang dibalas.
+❖ /gps <lokasi>: Dapatkan lokasi gps.
+❖ /github <username>: Dapatkan informasi tentang pengguna GitHub.
+❖ /country <nama negara>: Mengumpulkan info tentang negara tertentu
+❖ /imdb <Nama film>: Dapatkan info lengkap tentang film dengan imdb.com
+❖ Xrynze <query>: Xrynze menjawab pertanyaan
+
+💡 Contoh : `Xrynze di mana Jepang?
 """
