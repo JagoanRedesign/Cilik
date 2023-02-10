@@ -548,23 +548,25 @@ def snipe(update: Update, context: CallbackContext):
 
 
 __help__ = """
-*User Commands:*
+──「 Larangan / Bisukan 」──
 
-✪ /kickme*:* kicks the user who issued the command
+*Perintah Pengguna:*
 
-*Admins only:*
+❖ /kickme*:* menendang pengguna yang mengeluarkan perintah
 
-✪ /ban <userhandle>*:* bans a user. (via handle, or reply)
-✪ /sban <userhandle>*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
-✪ /tban <userhandle> x(m/h/d)*:* bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-✪ /unban <userhandle>*:* unbans a user. (via handle, or reply)
-✪ /kick <userhandle>*:* kicks a user out of the group, (via handle, or reply)
-✪ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
-✪ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-✪ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
-✪ /zombies*:* searches deleted accounts
-✪ /zombies clean*:* removes deleted accounts from the group.
-✪ /snipe <chatid> <string>*:* Make me send a message to a specific chat.
+*Hanya Admin:*
+
+❖ /ban <userhandle>*:* mencekal pengguna. (melalui pegangan, atau balasan)
+❖ /sban <userhandle>*:* Diam-diam melarang pengguna. Menghapus perintah, Membalas pesan dan tidak membalas. (melalui pegangan, atau balasan)
+❖ /tban <userhandle> x(m/h/d)*:* mencekal pengguna selama x waktu. (melalui pegangan, atau balasan). m = menit, h = jam, d = hari.
+❖ /unban <userhandle>*:* membatalkan pemblokiran pengguna. (melalui pegangan, atau balasan)
+❖ /kick <userhandle>*:* mengeluarkan pengguna dari grup, (melalui handle, atau membalas)
+❖ /mute <userhandle>*:* membungkam pengguna. Dapat juga digunakan sebagai balasan, menonaktifkan pengguna yang dibalas.
+❖ /tmute <userhandle> x(m/h/d)*:* menonaktifkan pengguna selama x waktu. (melalui pegangan, atau balasan). m = menit, h = jam, d = hari.
+❖ /unmute <userhandle>*:* mengaktifkan suara pengguna. Dapat juga digunakan sebagai balasan, menonaktifkan pengguna yang dibalas.
+❖ /zombies*:* mencari akun yang dihapus
+❖ /zombies clean*:* menghapus akun yang dihapus dari grup.
+❖ /snipe <chatid> <string>*:* Buat saya mengirim pesan ke chat tertentu.
 """
 
 
