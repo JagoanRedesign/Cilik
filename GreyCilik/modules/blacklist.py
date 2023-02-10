@@ -453,28 +453,29 @@ def __stats__():
 __mod_name__ = "Blacklists"
 
 __help__ = """
+──「 Daftar Hitam 」──
 
-Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!
+Daftar hitam digunakan untuk menghentikan pemicu tertentu agar tidak diucapkan dalam grup. Setiap kali pemicu disebutkan, pesan akan segera dihapus. Kombo yang bagus terkadang memasangkan ini dengan filter peringatan!
 
-*NOTE*: Blacklists do not affect group admins.
+*CATATAN* Daftar hitam tidak memengaruhi admin grup.
 
-✪ /blacklist*:* View the current blacklisted words.
+❖ /blacklist*:* Melihat kata-kata yang masuk daftar hitam saat ini.
 
-Admin only:
-✪ /addblacklist <triggers>*:* Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
-✪ /unblacklist <triggers>*:* Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
-✪ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Action to perform when someone sends blacklisted words.
+Hanya admin*:*
+❖ /addblacklist <triggers>*:* Tambahkan pemicu ke daftar hitam. Setiap baris dianggap sebagai satu pemicu, jadi menggunakan baris yang berbeda akan memungkinkan Anda untuk menambahkan beberapa pemicu.
+❖ /unblacklist <triggers>*:* Hapus pemicu dari daftar hitam. Logika baris baru yang sama berlaku di sini, sehingga Anda dapat menghapus beberapa pemicu sekaligus.
+❖ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Tindakan yang dilakukan ketika seseorang mengirim kata-kata yang masuk daftar hitam.
 
-Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, the message will be deleted immediately.
-*NOTE:* Blacklist stickers do not affect the group admin
-✪ • /blsticker*:* See current blacklisted sticker
-*Only admin:*
-✪ /addblsticker <sticker link>*:* Add the sticker trigger to the black list. Can be added via reply sticker
-✪ /unblsticker <sticker link>*:* Remove triggers from blacklist. The same newline logic applies here, so you can delete multiple triggers at once
-✪ /rmblsticker <sticker link>*:* Same as above
-✪ /blstickermode <delete/ban/tban/mute/tmute>*:* sets up a default action on what to do if users use blacklisted stickers
-Note:
-✪ <sticker link> can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
+Stiker blacklist digunakan untuk menghentikan stiker tertentu. Setiap kali stiker dikirim, pesan akan segera dihapus.
+*CATATAN:* Stiker daftar hitam tidak memengaruhi admin grup
+❖ /blsticker*:* Lihat stiker yang masuk daftar hitam saat ini
+*Hanya Admin :*
+❖ /addblsticker <sticker link>*:* Tambahkan pemicu stiker ke daftar hitam. Dapat ditambahkan melalui stiker balasan
+❖ /unblsticker <sticker link>*:* Hapus pemicu dari daftar hitam. Logika baris baru yang sama berlaku di sini, sehingga Anda dapat menghapus beberapa pemicu sekaligus
+❖ /rmblsticker <tautan stiker>*:* Sama seperti di atas
+❖ /blstickermode <delete/ban/tban/mute/tmute>*:* mengatur tindakan default tentang apa yang harus dilakukan jika pengguna menggunakan stiker yang masuk daftar hitam
+Catatan*:*
+❖ <sticker link> bisa `https://t.me/addstickers/<sticker>` atau cukup `<sticker>` atau membalas pesan stiker
 
 """
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
