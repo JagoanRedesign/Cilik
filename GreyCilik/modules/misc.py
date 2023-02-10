@@ -178,24 +178,28 @@ def wall(update: Update, context: CallbackContext):
 
 
 __help__ = """
-*Available commands:*
-✪ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
-✪ /paste*:* Saves replied content to `nekobin.com` and replies with a url
-✪ /react*:* Reacts with a random reaction 
-✪ /ud <word>*:* Type the word or expression you want to search use
-✪ /reverse*:* Does a reverse image search of the media which it was replied to.
-✪ /wiki <query>*:* wikipedia your query
-✪ /wall <query>*:* get a wallpaper from wall.alphacoders.com
-✪ /cash*:* currency converter
- Example:
+──「 Extras 」──
+
+❖ /markdownhelp: ringkasan singkat tentang cara kerja markdown di telegram - hanya dapat dipanggil dalam obrolan pribadi
+❖ /paste: Menyimpan konten yang dibalas ke nekobin.com dan membalas dengan url
+❖ /react: Bereaksi dengan reaksi acak
+❖ /ud <word>: Ketikkan kata atau ekspresi yang ingin dicari gunakan
+❖ /reverse: Melakukan pencarian gambar terbalik dari media yang dibalas.
+❖ /wiki <query>: wikipedia permintaan Anda
+❖ /wall <query>: dapatkan wallpaper dari wall.alphacoders.com
+❖ /cash: pengonversi mata uang
+
+ Contoh:
  `/cash 1 USD INR`  
-      _OR_
+      _ATAU_
  `/cash 1 usd inr`
- Output: `1.0 USD = 75.505 INR`
-*Music Modules:*
-✪ /video or /vsong (query): download video from youtube
-✪ /music or /song (query): download song from yt servers. (API BASED)
-✪ /lyrics (song name) : This plugin searches for song lyrics with song name.
+ Keluaran: `1.0 USD = 75.505 INR`
+
+*Modul Musik:*
+
+❖ /video atau /vsong (pencarian): unduh video dari youtube
+❖ /music atau /song (pencarian): download lagu dari server youtube. (BERBASIS API)
+❖ /lyrics (judul lagu) : Plugin ini mencari lirik lagu dengan nama lagu.
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler(
