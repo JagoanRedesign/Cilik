@@ -313,40 +313,41 @@ def weebify(update: Update, context: CallbackContext):
 
 
 __help__ = """
-✪ /runs*:* reply a random string from an array of replies
-✪ /slap*:* slap a user, or get slapped if not a reply
-✪ /shrug*:* get shrug XD
-✪ /table*:* get flip/unflip :v
-✪ /decide*:* Randomly answers yes/no/maybe
-✪ /toss*:* Tosses A coin
-✪ /bluetext*:* check urself :V
-✪ /roll*:* Roll a dice
-✪ /rlg*:* Join ears,nose,mouth and create an emo ;-;
-✪ /shout <keyword>*:* write anything you want to give loud shout
-✪ /weebify <text>*:* returns a weebified text
-✪ /sanitize*:* always use this before /pat or any contact
-✪ /pat*:* pats a user, or get patted
-✪ /8ball*:* predicts using 8ball method
+──「 Seru 」──
 
-- Animation
-✪ /love 
-✪ /hack 
-✪ /bombs 
+❖ /runs: membalas string acak dari array balasan
+❖ /slap: tampar pengguna, atau tampar jika tidak dibalas
+❖ /shrug: angkat bahu XD
+❖ /table: dapatkan flip/unflip :v
+❖ /decide: Secara acak menjawab ya/tidak/mungkin
+❖ /toss: Melempar koin
+❖ /bluetext: cek sendiri :V
+❖ /roll: Melempar dadu
+❖ /rlg: Bergabunglah dengan telinga, hidung, mulut dan buat emo ;-;
+❖ /shout <keyword>: tulis apa saja yang ingin diteriakkan
+❖ /weebify <text>: mengembalikan teks yang di-weebify
+❖ /sanitize: selalu gunakan ini sebelum /pat atau kontak apa pun
+❖ /pat: menepuk pengguna, atau ditepuk
+❖ /8ball: memprediksi menggunakan metode 8ball
 
-- Shippering
-✪ /couples - get couples of today
+- Animasi
+❖ /love 
+❖ /hack
+❖ /boms
 
-- Here is the help for the Styletext module:
+- Pengiriman
+❖ /couples - dapatkan pasangan hari ini
 
-✪ /weebify <text>: weebify your text!
-✪ /bubble <text>: bubble your text!
-✪ /fbubble <text>: bubble-filled your text!
-✪ /square <text>: square your text!
-✪ /fsquare <text>: square-filled your text!
-✪ /blue <text>: bluify your text!
-✪ /latin <text>: latinify your text!
-✪ /lined <text>: lined your text!
-✪ /cilik <text>: cilik your text!
+- Berikut adalah bantuan untuk modul Styletext:
+
+❖ /weebify <text>: weebify teks Anda!
+❖ /bubble <text>: gelembung teks Anda!
+❖ /fbubble <text>: teks Anda penuh gelembung!
+❖ /square <teks>: kuadratkan teks Anda!
+❖ /fsquare <text>: kotak-isi teks Anda!
+❖ /blue <text>: bluify teks Anda!
+❖ /latin <text>: latinifikasikan teks Anda!
+❖ /cilik <text>: cilik teks Anda!
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
