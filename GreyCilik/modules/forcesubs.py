@@ -109,7 +109,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "😕 **Grey bukan admin disini..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "😕 **Xrynze bukan admin disini..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
