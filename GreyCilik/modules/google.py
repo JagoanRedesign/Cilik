@@ -281,15 +281,14 @@ __mod_name__ = "Search"
 __help__ = """
 ──「 Pencarian 」──
 
-❖ /google <query>: Lakukan pencarian google
-❖ /image <query>: Cari gambar di Google dan kembalikan Untuk no yang lebih besar. dari hasil tentukan lim, Misalnya: `/img hello lim=10`
-❖ /app <appname>: Mencari aplikasi di Play Store dan mengembalikan detailnya.
+❖ /google <query>*:* Lakukan pencarian google
+❖ /image <query>*:* Cari gambar di Google dan kembalikan Untuk no yang lebih besar. dari hasil tentukan lim, Misalnya: `/img hello lim=10`
+❖ /app <appname>*:* Mencari aplikasi di Play Store dan mengembalikan detailnya.
 ❖ /reverse: Melakukan pencarian gambar terbalik dari media yang dibalas.
-❖ /gps <lokasi>: Dapatkan lokasi gps.
-❖ /github <username>: Dapatkan informasi tentang pengguna GitHub.
-❖ /country <nama negara>: Mengumpulkan info tentang negara tertentu
-❖ /imdb <Nama film>: Dapatkan info lengkap tentang film dengan imdb.com
-❖ Xrynze <query>: Xrynze menjawab pertanyaan
-
-💡 Contoh : `Xrynze di mana Jepang?
+❖ /gps <location>*:* Dapatkan lokasi gps.
+❖ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
+❖ /country <country name>*:* Mengumpulkan info tentang negara tertentu
+❖ /imdb <Movie name>*:* Dapatkan info lengkap tentang film dengan imdb.com
+❖ Xrynze <query>*:* Xrynze menjawab pertanyaan
+  💡Ex: `Xrynze where is Japan?`
 """
