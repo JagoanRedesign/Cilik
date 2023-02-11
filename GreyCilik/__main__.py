@@ -109,7 +109,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+*❖ Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik. ❖*
+
+❖ /start : Mulai Aku!! ✨
+❖ /help : Perintah Untuk Membantu Anda"""
 
 CILIK_IMG = "https://telegra.ph/file/2a8514b5527d544e97545.jpg"
 
